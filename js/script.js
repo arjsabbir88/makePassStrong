@@ -14,6 +14,7 @@ btn.addEventListener("click", ()=>{
     lowerCase.classList.remove("text-red-600");
     upperCase.classList.remove("text-red-600");
     special.classList.remove("text-red-600");
+    div.classList.remove('text-red-600');
 
 
     if(currentPass.value !== checkPass.value){
