@@ -30,11 +30,14 @@
             <input type="email" class="input" placeholder="Email" />
             
             <label class="fieldset-label">Password</label>
-            <input type="password" class="input" placeholder="Password" />
+            <input id="currentPass" type="password" class="input" placeholder="Password" />
             <label class="fieldset-label">Re Enter your Password</label>
-            <input type="password" class="input" placeholder="Password" />
+            <input id="checkPass" type="password" class="input" placeholder="Password" />
             
-            <button class="btn btn-neutral mt-4">Login</button>
+            <button id="btn" class="btn btn-neutral mt-4">Login</button>
+            <div id="checking">
+
+            </div>
             <div class="text-sm">
                 <h1 class="text-sm font-bold">Make Your Password More Strong</h1>
                 <p>Minimum Length 8-12 characters.</p>
@@ -44,5 +47,8 @@
             </div>
         </fieldset>
     </section>
+
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
